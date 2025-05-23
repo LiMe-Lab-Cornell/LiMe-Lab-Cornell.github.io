@@ -2,7 +2,7 @@
 {
   "label1": "image\\Theoretical.svg",
   "label2": "image\\experiment.svg",
-  "author": "<b>Aparicio, H.<b>, Levy, R., Coppock, E.",
+  "author": "<b>Aparicio, H.</b>, Levy, R., Coppock, E.",
   "year": "2025",
   "title": "<i>Beware of referential garden paths! The dangerous allure of semantic parses that succeed locally but globally fail.</i> In <i>Proceedings of the Annual Meeting of the Cognitive Science Society.</i>",
   "abstract": "A central endeavor in psycholinguistic research has been to determine the processing profile of syntactically ambiguous strings. Previous work investigating syntactic attachment ambiguities has shown that discarding a locally grammatically available, but globally failing, parse is costly. However, little is known about how comprehenders cope with semantic parsing ambiguities. Using the case study of scopally ambiguous definite descriptions such as the rabbit in the big hat, we examine whether comparable penalties arise for non-lexical semantic ambiguities. In a series of reference resolution tasks, we find dispreference for strings that are globally defined but fail to refer under alternative semantic parses, compared to strings where all readings successfully refer to the same individual. Crucially, this effect is only detectable when the alternative failing reading gives rise to a referential garden path, where a dynamic constraint evaluation process temporarily settles on a unique referent before eventually failing. We conclude that failing alternative readings cause dispreference for a definite description, but only when the failing interpretation constitutes a red herring",
@@ -18,7 +18,7 @@
 {
   "label1": "image\\Theoretical.svg",
   "label2": "image\\experiment.svg",
-  "author": "<b>Pecsok, E.</b>, <b>Aparicio, H<b>. ",
+  "author": "<b>Pecsok, E.</b>, <b>Aparicio, H</b>. ",
   "year": "2024",
   "title": "<i>How can they both be right?: Faultless disagreement and semantic adaptation.</i> In <i>Proceedings of the Annual Meeting of the Cognitive Science Society.</i>",
   "abstract": "Disagreements are speech acts used by interlocutors to challenge previous assertions. When disagreements express subjective views, they can often be perceived as faultless. However, it is unclear whether accepting a disagreement as faultless causes comprehenders to update their own semantic representations of the predicate targeted by the disagreement. Using the vague quantifiers \textit{many} and \textit{few} as a case study, we find in two adaptation studies that participants shifted their meaning representations of the quantifiers after being exposed to disagreements that on average were more likely to be perceived as faultless. The adaptation strengthened the participants' baseline preferences, suggesting that even when a disagreement is judged to be faultless, there exists a perceived asymmetry in the plausibility of the two viewpoints under discussion.",
