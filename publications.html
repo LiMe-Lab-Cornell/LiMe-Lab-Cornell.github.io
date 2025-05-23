@@ -29,6 +29,82 @@ layout: default
 
 <div class="spacer50"></div>
 
+<!-- accepted paper -->
+<div>
+  {% for accepted in site.data.accepted %}
+  <div class="spacer50" id=""></div>
+  <h5>{{accepted.year}}</h5>
+  <hr id="{{accepted.uniqueId}}" />
+  <div class="row submitted_content">
+    <div class="col-lg-2">
+      <img class="icon" src="{{accepted.label1}}" />
+      <img class="icon" src="{{accepted.label2}}" />
+    </div>
+    <div class="col-lg-1"></div>
+    <div class="col-lg-8">
+      <p id="content">
+        <span id="author">{{accepted.author}}</span
+        ><span id="title">{{accepted.title}}</span>
+      </p>
+      <div id="{{accepted.group}}">
+        <p>
+          <a
+            class="btn btn-outline-secondary"
+            id="button"
+            data-bs-toggle="collapse"
+            href="{{accepted.ahref}}"
+            role="button"
+            aria-expanded="false"
+            aria-controls="{{accepted.aria-controls1}}"
+          >
+            Abstract
+          </a>
+          <a
+            class="btn btn-outline-secondary"
+            id="button"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="{{accepted.data-bs-target}}"
+            aria-expanded="false"
+            aria-controls="{{accepted.aria-controls2}}"
+          >
+            BibTeX
+          </a>
+          <a
+            href="{{accepted.PDF}}"
+            class="btn btn-outline-secondary"
+            id="button"
+            type="button"
+            >PDF</a
+          >
+        </p>
+        <div class="accordion-group">
+          <div
+            class="collapse"
+            id="{{publication.aria-controls1}}"
+            data-bs-parent="{{accepted.groupId}}"
+          >
+            <div class="card card-body">
+              <p>{{accepted.abstract}}</p>
+            </div>
+          </div>
+          <div
+            class="collapse"
+            id="{{accepted.aria-controls2}}"
+            data-bs-parent="{{accepted.groupId}}"
+          >
+            <div class="card card-body">
+              <pre>{{accepted.BibTeX}}</pre>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  {% endfor %}
+</div>
+
+<div class="spacer100"></div>
 
 <h4>Published</h4>
 
