@@ -1,2 +1,18 @@
-[
+[  
+  {
+  "label1": "image\\Theoretical.svg",
+  "label2": "image\\experiment.svg",
+  "author": "Wu, Y., Aparicio, H. ",
+  "year": "",
+  "title": "<i>Meaning adaptation in the discourse dynamics of imprecision.</i>",
+  "abstract": "",
+  "BibTeX": "",
+  "PDF": "",
+  "group": "myGroup",
+  "groupId": "#myGroup",
+  "ahref": "#Abstract",
+  "aria-controls1": "Abstract",
+  "data-bs-target": "#BibTeX",
+  "aria-controls2": "BibTeX"
+}
 ]
