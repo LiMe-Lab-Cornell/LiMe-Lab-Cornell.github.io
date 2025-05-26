@@ -158,6 +158,7 @@ layout: default
           Abstract
         </a>
         {% endif %}
+        {% if publication.BibTeX %}
           <a
             class="btn btn-outline-secondary"
             id="button"
@@ -169,6 +170,7 @@ layout: default
           >
             BibTeX
           </a>
+          {% endif %}
           <a
             href="{{publication.PDF}}"
             class="btn btn-outline-secondary"
