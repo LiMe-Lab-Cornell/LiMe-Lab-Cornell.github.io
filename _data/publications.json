@@ -8,12 +8,12 @@
   "abstract": "A central endeavor in psycholinguistic research has been to determine the processing profile of syntactically ambiguous strings. Previous work investigating syntactic attachment ambiguities has shown that discarding a locally grammatically available, but globally failing, parse is costly. However, little is known about how comprehenders cope with semantic parsing ambiguities. Using the case study of scopally ambiguous definite descriptions such as the rabbit in the big hat, we examine whether comparable penalties arise for non-lexical semantic ambiguities. In a series of reference resolution tasks, we find dispreference for strings that are globally defined but fail to refer under alternative semantic parses, compared to strings where all readings successfully refer to the same individual. Crucially, this effect is only detectable when the alternative failing reading gives rise to a referential garden path, where a dynamic constraint evaluation process temporarily settles on a unique referent before eventually failing. We conclude that failing alternative readings cause dispreference for a definite description, but only when the failing interpretation constitutes a red herring",
   "BibTeX": "",
   "PDF": "docs/Aparicio-Levy-Coppock-Beware of referential garden paths!.pdf",
-  "group": "myGroup",
-  "groupId": "#myGroup",
-  "ahref": "#Abstract",
-  "aria-controls1": "Abstract",
-  "data-bs-target": "#BibTeX",
-  "aria-controls2": "BibTeX"
+  "group": "myGroup1",
+  "groupId": "#myGroup1",
+  "ahref": "#Abstract1",
+  "aria-controls1": "Abstract1",
+  "data-bs-target": "#BibTeX1",
+  "aria-controls2": "BibTeX1"
 },
 {
   "label1": "image\\Theoretical.svg",
