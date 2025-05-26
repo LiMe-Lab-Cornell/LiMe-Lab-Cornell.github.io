@@ -129,17 +129,19 @@ layout: default
       </p>
       <div id="{{publication.group}}">
         <p>
-          <a
-            class="btn btn-outline-secondary"
-            id="button"
-            data-bs-toggle="collapse"
-            href="{{publication.ahref}}"
-            role="button"
-            aria-expanded="false"
-            aria-controls="{{publication.aria-controls1}}"
-          >
-            Abstract
-          </a>
+        {% if publication.abstract %}
+        <a
+          class="btn btn-outline-secondary"
+          id="button"
+          data-bs-toggle="collapse"
+          href="{{publication.ahref}}"
+          role="button"
+          aria-expanded="false"
+          aria-controls="{{publication.aria-controls1}}"
+        >
+          Abstract
+        </a>
+        {% endif %}
           <a
             class="btn btn-outline-secondary"
             id="button"
