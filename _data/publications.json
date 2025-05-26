@@ -18,7 +18,7 @@
 {
   "label1": "image\\Theoretical.svg",
   "label2": "image\\experiment.svg",
-  "author": "<b>Aparicio, H.</b>, Levy, R., Coppock, E. ",
+  "author": "Aparicio, H., Levy, R., Coppock, E. ",
   "year": "",
   "uniqueId": "removeHr",
   "title": "<i>Beware of referential garden paths! The dangerous allure of semantic parses that succeed locally but globally fail.</i> <i> Glossa Psycholinguistics,</i>  4(1). DOI: http://dx.doi.org/10.5070/G60111484",
@@ -52,7 +52,7 @@
 {
   "label1": "image\\Theoretical.svg",
   "label2": "image\\experiment.svg",
-  "author": "<b>Pecsok, E.</b>, <b>Aparicio, H</b>. ",
+  "author": "<b>Pecsok, E.</b>, Aparicio, H. ",
   "year": 2024,
   "title": "<i>How can they both be right?: Faultless disagreement and semantic adaptation.</i> Proceedings of the <i> 46th Annual Meeting of the Cognitive Science Society.</i> pp. 3939-3945",
   "abstract": "Disagreements are speech acts used by interlocutors to challenge previous assertions. When disagreements express subjective views, they can often be perceived as faultless. However, it is unclear whether accepting a disagreement as faultless causes comprehenders to update their own semantic representations of the predicate targeted by the disagreement. Using the vague quantifiers \textit{many} and \textit{few} as a case study, we find in two adaptation studies that participants shifted their meaning representations of the quantifiers after being exposed to disagreements that on average were more likely to be perceived as faultless. The adaptation strengthened the participants' baseline preferences, suggesting that even when a disagreement is judged to be faultless, there exists a perceived asymmetry in the plausibility of the two viewpoints under discussion.",
