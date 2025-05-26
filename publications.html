@@ -45,11 +45,12 @@ layout: default
     <div class="col-lg-1"></div>
     <div class="col-lg-8">
       <p id="content">
-        <span id="author">{{accepted.author}}</span
-        ><span id="title">{{accepted.title}}</span>
+        <span id="author">{{accepted.author}}</span>
+        <span id="title">{{accepted.title}}</span>
       </p>
       <div id="{{accepted.group}}">
         <p>
+          {% if accepted.abstract %}
           <a
             class="btn btn-outline-secondary"
             id="button"
@@ -61,6 +62,9 @@ layout: default
           >
             Abstract
           </a>
+          {% endif %}
+
+          {% if accepted.BibTeX %}
           <a
             class="btn btn-outline-secondary"
             id="button"
@@ -72,24 +76,34 @@ layout: default
           >
             BibTeX
           </a>
+          {% endif %}
+
+          {% if accepted.PDF %}
           <a
             href="{{accepted.PDF}}"
             class="btn btn-outline-secondary"
             id="button"
             type="button"
-            >PDF</a
           >
+            PDF
+          </a>
+          {% endif %}
         </p>
+
         <div class="accordion-group">
+          {% if accepted.abstract %}
           <div
             class="collapse"
-            id="{{publication.aria-controls1}}"
+            id="{{accepted.aria-controls1}}"
             data-bs-parent="{{accepted.groupId}}"
           >
             <div class="card card-body">
               <p>{{accepted.abstract}}</p>
             </div>
           </div>
+          {% endif %}
+
+          {% if accepted.BibTeX %}
           <div
             class="collapse"
             id="{{accepted.aria-controls2}}"
@@ -99,12 +113,14 @@ layout: default
               <pre>{{accepted.BibTeX}}</pre>
             </div>
           </div>
+          {% endif %}
         </div>
       </div>
     </div>
   </div>
   {% endfor %}
 </div>
+
 
 <div class="spacer100"></div>
 
