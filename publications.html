@@ -27,6 +27,7 @@ layout: default
   </div>
 </div>
 
+{% if site.data.accepted and site.data.accepted.size > 0 %}
 <div class="spacer50"></div>
 
 <h4>Accepted</h4>
@@ -120,6 +121,7 @@ layout: default
   </div>
   {% endfor %}
 </div>
+{% endif %}
 
 
 <div class="spacer50"></div>
