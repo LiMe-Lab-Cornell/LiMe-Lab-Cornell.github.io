@@ -27,11 +27,11 @@ layout: default
   </div>
 </div>
 
-{% if site.data.accepted and site.data.accepted.size > 0 %}
+{% assign accepted_items = site.data.accepted | where_exp: "p", "p and p.title" %}
+{% if accepted_items != empty %}
 <div class="spacer50"></div>
 
 <h4>Accepted</h4>
-
 <!-- accepted paper -->
 <div>
   {% for accepted in site.data.accepted %}
@@ -121,6 +121,7 @@ layout: default
   </div>
   {% endfor %}
 </div>
+
 {% endif %}
 
 
