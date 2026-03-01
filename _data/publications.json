@@ -122,7 +122,7 @@
   "year": "",
   "uniqueId": "removeHr",
   "title": "<i>NPI licensing and intrusion effects in Japanese.</i> Proceedings of the <i>Chicago Linguistic Society</i>, pp. 443-454.",
-  "BibTex":"@inproceedings {su2022npi,\n title={NPI licensing and intrusion effects in japanese}, \n author={Su, Nianpo and Aparicio, Helena}, \njournal={Proceedings of CLS}, \n volume={58}, \npages={443--454}, \n year={2022}}",
+  "BibTeX":"@inproceedings {su2022npi,\n title={NPI licensing and intrusion effects in japanese}, \n author={Su, Nianpo and Aparicio, Helena}, \njournal={Proceedings of CLS}, \n volume={58}, \npages={443--454}, \n year={2022}}",
   "PDF": "docs/Su and Aparicio.pdf",
   "group": "myGroup6",
   "groupId": "#myGroup6",
